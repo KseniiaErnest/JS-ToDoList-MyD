@@ -33,6 +33,7 @@ body {
 body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  font-size: 62.5%;
 }
 /*
   6. Improve media defaults
@@ -46,3 +47,81 @@ svg {
   max-width: 100%;
 }
 
+
+body {
+  background-color: #724cf9;
+  background-image: url('notes.avif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header, .container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.heading-h1 {
+  font-size: 4rem;
+  background-color: #724cf9;
+  border-radius: 11px;
+  margin: 1.5rem 0 1rem 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+  
+
+
+.container {
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.inputField {
+  padding: 1.2rem;
+  width: 40%;
+  border: none;
+  border-radius: 9px;
+  background-color:#f1edfe;
+  color: #0b0819;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 1.4rem;
+  border: none;
+  border-radius: 9px;
+  background-color: #0b0819;
+  color: #f1edfe;
+  
+}
+
+.toDoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  
+}
+
+.styleList {
+  text-align: center;
+  background-color: #724cf9;
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f1edfe;
+  width: 40%;
+  border: 1px #0b0819 solid;
+  border-radius: 9px;
+  padding: 0.3rem;
+}
+
+.styleListRemove {
+  background-color: #0b0819;
+  color: #724cf9;
+  text-decoration: line-through;
+  transition: all 3s ease;
+}
